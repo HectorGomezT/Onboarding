@@ -9,10 +9,13 @@ def greet(name):
 print(f"Hello,{greet(name)}", f"Wow!, your name has {len(name)} letters", sep=".")
 print ("Acruaizacion al repositorio existosa")
 
-def shout (name,n):
-    name = name.upper() * n
+def shout (n):
+    def echo (name):
+        
+        name = name.upper() * n
 
-    return name 
+    return name
+return echo
 
 print(name)
 
