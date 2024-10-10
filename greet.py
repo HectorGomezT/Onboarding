@@ -7,15 +7,15 @@ def greet(name):
     return name 
 
 print(f"Hello,{greet(name)}", f"Wow!, your name has {len(name)} letters", sep=".")
-print ("Acruaizacion al repositorio existosa")
 
 def shout (n):
     def echo (name):
         
         name = name.upper() * n
 
-    return name
-return echo
+        return name
+    return echo
 
 print(name)
+print (shout,2)
 
