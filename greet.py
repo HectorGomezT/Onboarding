@@ -21,4 +21,5 @@ print (shout,2)
 
 #Cambio en el main para probar la estatica en el codigo de 1branch y probar el comando -am
 #segundo push 
+#tercer push a main con el objetivo de regresar al segundo push mediante reset 
 
