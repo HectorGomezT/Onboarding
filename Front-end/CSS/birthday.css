@@ -1,0 +1,115 @@
+body{
+    font-family: "Happy Monkey", serif;
+    background: linear-gradient(rgb(71, 145, 225),rgb(226, 174, 183));
+    color: white;
+
+}
+
+/* Header  */
+#header{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#img-salem{
+    width: 350px;
+    border-radius: 50%;
+    height: 350px;
+    border: 8px solid #EFB0C9;
+}
+
+h1,h2,h4{
+    text-shadow: 0px 0px 1px black;
+}
+
+#years{
+    background-color: pink;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+#date{
+    margin: 0;
+    background-color: pink;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+/* Primer gift  */
+
+.container{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.h1{
+    text-shadow: 0px 0px 1px black;
+    margin-bottom: 0;
+}
+
+.gift-img{
+    border: 6px solid white;
+    height: 450px;
+    width: 400px;
+    background-image: url("/img/gift.avif");
+    background-size: cover;
+    margin-top: 10px;
+}
+
+#gif-happy:hover{
+    background-image: url("/img/stan.webp");
+    background-size: cover;
+}
+
+#gif-hot:hover{
+    background-image: url("/img/santana.webp");
+    background-size: cover;
+}
+
+#gif-genius:hover{
+    background-image: url("/img/genius.webp");
+    background-size: cover;
+}
+
+#gif-badass:hover{
+    background-image: url("/img/badass.webp");
+    background-size: cover;
+}
+
+#gif-cheers{
+    height: 200px;
+    background-size: 100%;
+}
+
+#gif-cheers:hover{
+    background-image: url("/img/cheers.gif");
+    background-size: cover;
+}
+
+
+#last{
+    text-shadow: 0px 0px 1px black;
+    font-size: larger;
+    font-style: italic;
+    width: 400px;
+    margin: 30px auto;
+}
+
+.underline{
+    text-decoration: underline ;
+}
+
+#tag{
+    color: white;
+}
+
+

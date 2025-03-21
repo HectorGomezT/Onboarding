@@ -1,0 +1,75 @@
+body {
+    background-image: url("/img/fondo_gris.avif");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(254, 251, 251, 0.5); /* Color con transparencia */
+    background-blend-mode: overlay; /* Mezcla la imagen y el color */
+    text-align: center;
+}
+
+.header
+{
+    border: 1px solid black;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.botones{
+    margin-top: 20px;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(231, 231, 244);
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#decrease-btn {
+    background: rgb(5, 106, 72);
+    color: black;
+}
+
+#decrease-btn:disabled {
+    background: rgb(114, 136, 129);
+    color: black;
+}
+
+
+#save-btn {
+    background: darkred;
+    width: 100px;
+    
+}
+
+#entries-el{
+    color: black;
+}
+
+#total{
+    color: black;
+}
+
+.purchase-error{
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#error-btn{
+    color: black;
+}

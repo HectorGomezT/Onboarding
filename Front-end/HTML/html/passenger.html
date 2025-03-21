@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/passenger.css">
+    <title>Passenger</title>
+    
+</head>
+<body>
+    <div class="header">
+        <h1>People entered:</h1>
+        <h2 id="number"> 0 </h2>
+    </div>
+    
+    <div class="botones">
+    <button class="botones" id="increment-btn" onclick="increment()"> INCREMENT </button>
+    <button class="botones" id="decrease-btn" onclick="decrease()"> DECREASE </button>
+    <button class="botones" id="save-btn" onclick="save();totalfun();reset()" > SAVE </button>
+    <p id="entries-el">Previous entries: </p>
+    <p id="total"> Total:  </p>
+    </div>
+
+    <div class="purchase-error">
+        <button class="botones" id="error-btn" onclick="msg()"> Purchase </button>
+        <p id="error"> </p>
+    </div>
+    <script src="/JS/JS/passenger.js"></script>
+</body>
+</html>

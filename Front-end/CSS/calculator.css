@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Digital-font';
+    src: url('/img/digital-font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+#header{
+    border: 1px solid black;
+    text-align: center;
+}
+
+#title{
+    color: rgb(56, 56, 250);
+}
+
+#frame{
+    margin-top: 20px;
+    border: solid 1px black;
+    height: 600px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+}
+
+#screen{
+    border: solid 1px black;
+    height: 100px;
+    width: 90%;
+    margin: 25px auto 25px auto ;
+    justify-content: end;
+    background-color: rgb(194, 191, 191);
+    display: flex;
+}
+
+.numbers{
+    display: flex;
+    font-size: 60px;
+    font-family: 'Digital-font';
+    margin-top: 35px;
+    margin-right: 5px;
+    
+}
+
+#keys{
+    border: solid 1px black;
+    margin: 10px auto 10px auto;
+    width: 90%;
+    height: 410px;
+}
+
+.rows{
+    display: flex;
+    justify-content:space-between;
+    margin: 25px auto 10px auto;
+    width: 95%;
+    height: 70px;
+}
+
+.button{
+    width: 85px;
+    border-radius: 15px;
+    border: solid 1px rgb(29, 12, 53);
+    font-size: larger;
+}
+
+.button:hover{
+    background-color: rgb(151, 153, 155);
+}

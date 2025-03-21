@@ -1,0 +1,115 @@
+body {
+    background: rgb(248, 218, 187);    /* red, blue, yellow, etc */
+    color: rgb(114, 66, 66);             /* red, blue, yellow, etc */
+    font-size: 20px;        /* 0px - 100px and beyond */
+    font-weight: lighter;   /* lighter, normal, bold  */      
+    margin-top: 0px;        /* From 0px and upwards, spacing at the top   */
+}
+
+#header
+{
+text-align: center;
+}
+
+.follow
+{
+    padding-bottom: 20px;
+    display: block;    
+
+}
+
+
+#mars
+{
+    width: 85%;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#input {
+    box-sizing: border-box;
+    display: block;
+    border-radius: 24px;
+    border: 1px solid rgb(223, 225, 229);
+    height: 44px;
+    margin: 0 auto 29px;
+    max-width: 564px;
+    width: 90%;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+#boton
+{
+    display: block;
+    height: 44px;
+    margin: 0 auto 29px;
+    
+}
+
+#h3
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    margin-top: 40px;
+
+}
+
+.para
+{
+    margin-top: 30px;
+}
+
+#para1 {
+    color: brown;
+    display: flex;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    text-align: center;
+    border: 2px solid brown; /* Added 'solid' to define the border style */
+    border-radius: 20px;
+    justify-content: center; /* Centers content horizontally inside the flex container */
+    align-items: center; /* Centers content vertically inside the flex container */
+    padding: 35px;
+    
+    
+}
+
+#para2
+{
+    margin-top: 50px;
+    display: block;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* The section below will be the css for the planets page */
+
+
+#planets
+{
+    width: 50%;  /* Using % instead of px will alow the img to resize by itlself  */
+    display: block; /* Display block stacks on top and block all the remain part horizontally */
+}
+
+.rectange
+{
+    background:  red;
+}
+
+
+
+

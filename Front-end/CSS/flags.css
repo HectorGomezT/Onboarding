@@ -1,0 +1,96 @@
+body
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#red
+{
+    background: red;
+    height: 300px;  /* Ensures enough space for centering */
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    
+}
+
+#blue
+{
+        background: blue;
+        /* Set a width */
+        height: 300px;  /* Set a height */
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left:10px;
+        margin-right: 10px;
+        box-sizing: border-box;
+        display: flex; /* Allows child divs to move sarround */
+    
+}
+
+#green
+{
+        background: green;
+        /* Set a width */
+        height: 300px;  /* Set a height */
+        margin-left:10px;
+        margin-right: 10px;
+        box-sizing: border-box;
+        display: flex;
+    
+}
+
+.padding
+{
+    width: 200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    background-color: white;
+}
+
+#p1
+{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.padding2
+{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+}
+
+#p2
+{
+    text-align: center;
+    padding: 10%;
+}
+
+#div_img
+{
+    background-color: white;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#img
+{
+    
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}

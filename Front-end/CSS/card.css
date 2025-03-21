@@ -1,0 +1,57 @@
+body
+{
+    margin: 10px;
+    cursor:pointer;
+    font-family:'Gill Sans';
+}
+
+.top
+{
+    display: flex;
+
+}
+.card
+{
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(216, 223, 238);
+    border-bottom: 5px solid rgb(169, 166, 246);
+    margin-left: 15px;
+
+}
+
+
+.container
+{
+    border: 1px solid;
+    text-align: center;
+    width: 250px;
+}
+
+#id_img
+{
+    height: 200px;
+
+}
+
+#city
+{
+    font-size: medium;
+}
+
+#dive {
+    font-size: x-small;
+    align-self: flex-end; /* Moves the link to the right */
+    margin-top: auto; /* Pushes it to the bottom */
+    padding-right: 5px; /* Optional: adds some space from the right edge */
+}
+
+.middle
+{
+    margin-top: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
