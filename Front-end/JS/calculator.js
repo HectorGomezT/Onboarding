@@ -186,8 +186,21 @@ function operation(){
 
     let sumatoria = Number(digit) + Number(digit2);
     number.textContent = sumatoria;
-    number2
-    console.log(sumatoria)
+    number2.textContent = " ";
+
+    let resta = Number(digit) - Number(digit2);
+    number.textContent = resta;
+    number2.textContent = " ";
+
+    let multiplicaicon = Number(digit) * Number(digit2);
+    number.textContent = multiplicaicon;
+    number2.textContent = " ";
+
+    let division = Number(digit) / Number(digit2);
+    number.textContent = division;
+    number2.textContent = " "
+
+
 }
 
 
