@@ -189,9 +189,9 @@ function divi(){
 }
 function equal() {
     
-    console.log(signo.textContent)
     console.log("This is digit:", digit)
     console.log("This is digit2:", digit2)
+    console.log(signo.textContent)
     if (signo.textContent === "+") {
         
         console.log("Signo despues de entrar al bucle:", signo.textContent);
@@ -216,17 +216,20 @@ function equal() {
     }
     else{
         let division = Number(digit) / Number(digit2);
-        number.textContent = division;
+        number.textContent = division.toFixed(2);
         number2.textContent = ""
         signo.textContent = "";
     }
 
+    digit = Number(number.textContent);
+
 }
 
-//function reset() {
-    //digit = 0;
-   //digit2 = 0;
-    //number.textContent = "0";
-    //number2.textContent = "0";
-    //console.log(digit, digit2);
-//}
+function res(){
+
+    number.textContent = 0;
+    digit = 0;
+    digit2 = 0;
+    console.log("Reseting the values of both digits",digit,digit2)
+
+}
